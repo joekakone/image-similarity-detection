@@ -7,18 +7,17 @@ La recherche par image est l'une des applications de la vision par ordinateur. L
 
 J'ai utilisé Tensorflow pour ce bon de et la librairie ANNOY pour.
 
+## Sommaire
+1. Entraînement d'un modèle de classification
+2. Compresser les images avec l'extracteur du modèle entraîné plus tôt
+3. Contruction du graphe
+
 ## Outils
 **Tensorflow (Google)**<br>
 TensorFlow est un outil open source d'apprentissage automatique développé par Google. Le code source a été ouvert le 9 novembre 2015 par Google et publié sous licence Apache. Il est fondé sur l'infrastructure DistBelief, initiée par Google en 2011, et est doté d'une interface pour Python, Julia et R.
 
 **Annoy (Spotify)**<br>
 Annoy (Approximate Nearest Neighbor Oh Yeah), est une bibliothèque open-source pour l'implémentation approximative du plus proche voisin.
-
-## Sommaire
-1. Entraînement d'un modèle de classification
-2. Compresser les images avec l'extracteur du modèle entraîné plus tôt
-3. Contruction du graphe
-
 
 ## I. Entraînement d'un modèle de classification
 L'objectif est 
@@ -67,7 +66,7 @@ Les livrables sont le modèle (l'extracteur pour compresser les images des clien
 * https://www.slideshare.net/RobinAndreauReni/recommendation-systems-109609898
 
 ## Licence
-Ce projet est sous licenece MIT Licence
+Ce projet est sous licence MIT Licence
 
 ---
 *Pour plus d’informations, merci de contacter joseph.kakone@gmail.com*
