@@ -2,6 +2,7 @@
 # coding : utf-8
 
 
+import os
 import argparse
 import time
 
@@ -38,8 +39,12 @@ def main():
     
     args = vars(ap.parse_args())
 
+    # load tf values
+    print("Loading tranfer values...")
     features = load_transfer_values(args['input'])
 
+    # build annoy graph
+    print("Building graph...")
     build_graph(features, args['size'], args['tree'], args['output'])
 
 

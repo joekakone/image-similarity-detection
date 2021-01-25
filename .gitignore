@@ -2,6 +2,8 @@
 *.csv
 *.ann
 *.ipynb
+*.json
+*.npy
 data/
 models/
 logs/
